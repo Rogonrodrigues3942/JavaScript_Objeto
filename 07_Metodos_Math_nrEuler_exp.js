@@ -1,0 +1,8 @@
+console.log('\nObject Math - methods exp() - número de Euler - page: 219')
+console.log('\nLista de exemplos de números de Euler')
+const nrEuler = a => Math.exp(a) 
+console.log('Nº de Euler de  0 é: ',nrEuler(0))
+console.log('Nº de Euler de  1 é: ',nrEuler(1))
+console.log('Nº de Euler de  2 é: ',nrEuler(2))
+console.log('Nº de Euler de  3 é: ',nrEuler(3))
+console.log('Nº de Euler de 10 é: ',nrEuler(10))

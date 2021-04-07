@@ -1,0 +1,8 @@
+console.log('\nObject Math - methods log(x) - logaritmo natural - page: 219')
+console.log("Lista de métodos log()")
+const logX = a => Math.log(a)
+console.log('Logaritmo natural de  0 na base e é: ',logX(0))
+console.log('Logaritmo natural de  1 na base e é: ',logX(1))
+console.log('Logaritmo natural de  2 na base e é: ',logX(2))
+console.log('Logaritmo natural de  5 na base e é: ',logX(5))
+console.log('Logaritmo natural de 10 na base e é: ',logX(10))

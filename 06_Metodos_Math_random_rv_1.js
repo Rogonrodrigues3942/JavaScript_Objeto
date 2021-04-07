@@ -1,0 +1,11 @@
+console.log('\nObject Math - methods random() - 1ª revisão - 10/06/2020 page: 216')
+console.log('\n1º exemplo - Numeros aleatórios de 0 a 1, nº gerado: ', Math.random())
+console.log('\n2º exemplo- Gerando números reais aleatórios de de 0  a 10')
+const nrRandom1 = () => Math.random()*11
+console.log("Nº gerado: ",nrRandom1())
+console.log('\n3º exemplo - Gerando números inteiros aleatórios de 0 a 9')
+const nrRandom2 = Math.floor(Math.random()*10)
+console.log('Nº gerado: ',nrRandom2)
+console.log('\n4º exemplo - Gerando números inteiros em um range de valores, parâmetros entre a e b.')
+const nrRandom3 = (a, b) => Math.floor(Math.random()*(b-a)+a)
+console.log('Nº gerado:',nrRandom3(2, 20))
